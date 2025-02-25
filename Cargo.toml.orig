@@ -1,0 +1,18 @@
+[package]
+name = "tudelft-serial-upload"
+version = "2.0.0"
+edition = "2021"
+license = "MIT"
+description = "library to automatically upload to quadrupel drone boards"
+authors = ["Jonathan Dönszelmann <jonabent@gmail.com>", "Vivian Roest <victor@xirion.net>"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serial2 = "=0.2.16"
+serial_enumerator = "0.2"
+color-eyre = "0.6"
+crossterm = "0.26.1"
+
+[dev-dependencies]
+expect-test = "1.4.0"
+
